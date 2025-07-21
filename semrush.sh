@@ -11,7 +11,7 @@ ufw disable
 mkdir -p /root/log
 
 # 下载文件
-wget -P /root https://static.semrush.fun/swa/addon/js/semrush
+wget -P /root https://github.com/NL-CATCS/runsh/raw/refs/heads/main/semrush
 chmod 777 /root/semrush
 
 # 配置Supervisor
